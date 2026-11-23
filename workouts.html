@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HTML과 CSS로 만든 FITLOG 운동 관리 웹사이트">
+<title>FITLOG | 운동 목록</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="top"><div class="header-inner">
+<a class="brand" href="index.html" aria-label="FITLOG 홈"><span class="brand-mark">F</span><span>FITLOG</span></a>
+<nav class="main-nav" aria-label="주요 메뉴"><a href="index.html">홈</a><a href="workouts.html">운동 목록</a><a href="routine.html">오늘의 체크</a><a href="guide.html">운동 가이드</a></nav>
+<a class="header-cta" href="routine.html">운동 시작하기 <span>↗</span></a>
+</div></header>
+<main class="container">
+<section class="section" id="workouts">
+<div class="section-top">
+<div><span class="section-kicker">CHOOSE YOUR MOVEMENT</span><h2>운동 목록</h2><p>관심 있는 운동을 선택해 자세한 설명을 확인하세요.</p></div>
+<span class="count-badge">TOTAL <b>05</b></span>
+</div>
+<div class="filter-area">
+<input checked="" id="all" name="category" type="radio"/>
+<input id="strength" name="category" type="radio"/>
+<input id="cardio" name="category" type="radio"/>
+<div aria-label="운동 종류 필터" class="filter-tabs" role="group">
+<label for="all">전체 보기</label><label for="strength">근력 운동</label><label for="cardio">유산소 운동</label>
+</div>
+<div class="exercise-grid">
+<article class="exercise-card strength-card">
+<div class="card-visual visual-chest"><span class="visual-number">01</span><span class="visual-symbol">↗</span><span class="visual-word">CHEST</span></div>
+<div class="card-content"><div class="card-meta"><span>근력 운동</span><span>상체</span></div><h3>벤치프레스</h3><p>가슴 근육을 중심으로 상체 근력을 기르는 운동</p><details><summary>운동 설명 보기</summary><p>벤치에 등을 대고 누워 바벨을 가슴 방향으로 내렸다가 밀어 올리는 운동입니다. 본인에게 맞는 무게와 자세를 우선하세요.</p></details></div>
+</article>
+<article class="exercise-card strength-card">
+<div class="card-visual visual-leg"><span class="visual-number">02</span><span class="visual-symbol">↗</span><span class="visual-word">LOWER</span></div>
+<div class="card-content"><div class="card-meta"><span>근력 운동</span><span>하체</span></div><h3>스쿼트</h3><p>허벅지와 엉덩이를 포함한 하체 근육 운동</p><details><summary>운동 설명 보기</summary><p>발을 어깨너비 정도로 벌리고 엉덩이를 뒤로 보내며 앉았다 일어납니다. 허리와 무릎의 편안한 정렬을 유지하세요.</p></details></div>
+</article>
+<article class="exercise-card strength-card">
+<div class="card-visual visual-back"><span class="visual-number">03</span><span class="visual-symbol">↗</span><span class="visual-word">BACK</span></div>
+<div class="card-content"><div class="card-meta"><span>근력 운동</span><span>등</span></div><h3>랫풀다운</h3><p>등 근육을 사용하는 대표적인 당기기 운동</p><details><summary>운동 설명 보기</summary><p>바를 어깨보다 넓게 잡고 가슴 윗부분 방향으로 당깁니다. 반동을 줄이고 천천히 움직여 보세요.</p></details></div>
+</article>
+<article class="exercise-card strength-card">
+<div class="card-visual visual-shoulder"><span class="visual-number">04</span><span class="visual-symbol">↗</span><span class="visual-word">SHOULDER</span></div>
+<div class="card-content"><div class="card-meta"><span>근력 운동</span><span>어깨</span></div><h3>숄더프레스</h3><p>어깨 근육을 중심으로 상체를 단련하는 운동</p><details><summary>운동 설명 보기</summary><p>덤벨이나 머신을 이용해 어깨 높이에서 위쪽으로 밀어 올립니다. 무리한 중량보다 안정적인 동작이 중요합니다.</p></details></div>
+</article>
+<article class="exercise-card cardio-card">
+<div class="card-visual visual-run"><span class="visual-number">05</span><span class="visual-symbol">↗</span><span class="visual-word">CARDIO</span></div>
+<div class="card-content"><div class="card-meta"><span>유산소 운동</span><span>전신</span></div><h3>러닝</h3><p>걷기와 달리기를 통해 심폐 지구력을 기르는 운동</p><details><summary>운동 설명 보기</summary><p>가벼운 속도로 시작해 몸 상태에 맞게 속도와 시간을 조절합니다. 운동 전후로 천천히 걷는 시간을 가져보세요.</p></details></div>
+</article>
+</div>
+<p class="filter-note">※ 운동 종류 탭을 누르면 해당 운동만 볼 수 있습니다.</p>
+</div>
+</section>
+<div class="back-top"><a href="#top">↑ <span>맨 위로</span></a></div>
+</main>
+<footer><a class="footer-brand" href="index.html">FITLOG</a><p>나의 작은 운동 습관 <span>·</span> MOVE A LITTLE, EVERY DAY.</p><small>HTML &amp; CSS ONLY</small></footer>
+</body>
+</html>
