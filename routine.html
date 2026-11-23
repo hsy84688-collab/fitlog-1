@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HTML과 CSS로 만든 FITLOG 운동 관리 웹사이트">
+<title>FITLOG | 오늘의 운동 체크</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header" id="top"><div class="header-inner">
+<a class="brand" href="index.html" aria-label="FITLOG 홈"><span class="brand-mark">F</span><span>FITLOG</span></a>
+<nav class="main-nav" aria-label="주요 메뉴"><a href="index.html">홈</a><a href="workouts.html">운동 목록</a><a href="routine.html">오늘의 체크</a><a href="guide.html">운동 가이드</a></nav>
+<a class="header-cta" href="routine.html">운동 시작하기 <span>↗</span></a>
+</div></header>
+<main class="container">
+<section class="section routine-section" id="routine">
+<div class="section-top">
+<div><span class="section-kicker">YOUR DAILY CHECKLIST</span><h2>오늘의 운동 체크</h2><p>오늘 할 운동을 선택하고 완료한 항목에 체크해 보세요.</p></div>
+<span class="today-tag">TODAY'S PLAN</span>
+</div>
+<div class="routine-layout">
+<div class="check-panel">
+<div class="check-panel-heading"><div><span class="mini-label">WORKOUT CHECKLIST</span><h3>오늘 실천할 운동</h3></div><span class="check-icon">✓</span></div>
+<div class="check-list">
+<input id="task1" type="checkbox"/><label for="task1"><span class="fake-check">✓</span><span class="task-text"><b>벤치프레스</b><small>가슴 · 근력 운동</small></span><span class="task-tag">CHEST</span></label>
+<input id="task2" type="checkbox"/><label for="task2"><span class="fake-check">✓</span><span class="task-text"><b>스쿼트</b><small>하체 · 근력 운동</small></span><span class="task-tag">LEG</span></label>
+<input id="task3" type="checkbox"/><label for="task3"><span class="fake-check">✓</span><span class="task-text"><b>랫풀다운</b><small>등 · 근력 운동</small></span><span class="task-tag">BACK</span></label>
+<input id="task4" type="checkbox"/><label for="task4"><span class="fake-check">✓</span><span class="task-text"><b>숄더프레스</b><small>어깨 · 근력 운동</small></span><span class="task-tag">SHOULDER</span></label>
+<input id="task5" type="checkbox"/><label for="task5"><span class="fake-check">✓</span><span class="task-text"><b>러닝</b><small>전신 · 유산소 운동</small></span><span class="task-tag">CARDIO</span></label>
+</div>
+<p class="check-footnote">체크 상태는 현재 페이지에서만 표시되며, 새로고침하면 초기화됩니다.</p>
+</div>
+<aside class="tip-panel"><span class="tip-icon">✳</span><span class="mini-label">A LITTLE REMINDER</span><h3>완벽함보다<br/>꾸준함이 중요해요.</h3><p>처음부터 많은 운동을 하기보다 내 몸에 맞는 작은 목표부터 시작해 보세요.</p><a href="guide.html">운동 팁 확인하기 <span>→</span></a></aside>
+</div>
+</section>
+<div class="back-top"><a href="#top">↑ <span>맨 위로</span></a></div>
+</main>
+<footer><a class="footer-brand" href="index.html">FITLOG</a><p>나의 작은 운동 습관 <span>·</span> MOVE A LITTLE, EVERY DAY.</p><small>HTML &amp; CSS ONLY</small></footer>
+</body>
+</html>
